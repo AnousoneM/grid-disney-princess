@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+body {
+  background-color: rgb(29, 29, 97);
+  font-family: 'Pacifico', cursive;
+}
+
+header {
+  text-align: center;
+  padding: 1rem 0;
+  height: 20vh;
+}
+
+header img {
+  height: 100%;
+  width: auto;
+}
+
+footer{
+    text-align: center;
+    color: #e03db0;
+    padding: 2rem 0;
+}
+
+.container {
+  width: 90vw;
+  margin: 0 auto;
+}
+
+/* div contenant la grid */
+.heros {
+  display: grid;
+  
+  column-gap: 10px;
+  row-gap: 10px;
+
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(10, 10rem);
+}
+
+/* permet d'avoir une image qui prends toute la div */
+.img-fluid {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.case-1 {
+  border: 10px white solid;
+  grid-column: 1 / span 3;
+  grid-row: 1 / 4;
+
+  /* background-image: url("../img/raiponce.jpg");
+  background-size: cover; */
+}
+
+.case-2 {
+  border: 10px white solid;
+  grid-column: 4 / span 3;
+  grid-row: 1 / 4;
+
+  background-image: url("../img/elsa.jpg");
+  background-size: cover;
+}
+
+.case-3 {
+  border: 10px white solid;
+  grid-column: 7 / span 6;
+  grid-row: 1 / 4;
+
+  background-image: url("../img/moana.jpg");
+  background-size: cover;
+}
+
+.case-4 {
+  border: 10px white solid;
+  grid-column: 1 / span 12;
+  grid-row: 4 / 7;
+
+  background-image: url("../img/ariel.jpg");
+  background-size: cover;
+}
+
+.case-5 {
+  border: 10px white solid;
+  grid-column: 1 / span 3;
+  grid-row: 7 / 9;
+
+  background-image: url("../img/snow.jpg");
+  background-size: cover;
+}
+
+.case-6 {
+  border: 10px white solid;
+  grid-column: 4 / span 3;
+  grid-row: 7 / 9;
+
+  background-image: url("../img/jasmine.png");
+  background-size: cover;
+}
+
+.case-7 {
+  border: 10px white solid;
+  grid-column: 7 / span 3;
+  grid-row: 7 / 9;
+
+  background-image: url("../img/tiana.jpg");
+  background-size: cover;
+}
+
+.case-8 {
+  border: 10px white solid;
+  grid-column: 10 / span 3;
+  grid-row: 7 / 9;
+
+  background-image: url("../img/belle.jpg");
+  background-size: cover;
+}
+
+.case-9 {
+  border: 10px white solid;
+  grid-column: 1 / span 5;
+  grid-row: 9 / 11;
+
+  background-image: url("../img/cinderella.jpg");
+  background-size: cover;
+}
+
+.case-10 {
+  border: 10px white solid;
+  grid-column: 6 / span 7;
+  grid-row: 9 / 11;
+
+  background-image: url("../img/pocahontas.jpg");
+  background-size: cover;
+}
