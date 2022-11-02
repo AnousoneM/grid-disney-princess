@@ -123,3 +123,56 @@ img.img-fluid:hover + .princess-name {
   grid-column: 6 / span 7;
   grid-row: 9 / 11;
 }
+
+/* Exemple de média queries pour modifier les éléments d'une GRID*/
+@media screen AND (max-width: 480px) {
+  .case-1 {
+    grid-column: 1 / span 12;
+    grid-row: 1 / 4;
+  }
+
+  .case-2 {
+    grid-column: 1 / span 12;
+    grid-row: 4 / 7;
+  }
+
+  .case-3 {
+    grid-column: 1 / span 12;
+    grid-row: 7 / 10;
+  }
+
+  .case-4 {
+    grid-column: 1 / span 12;
+    grid-row: 10 / 13;
+  }
+
+  .case-5 {
+    grid-column: 1 / span 12;
+    grid-row: 13 / 16;
+  }
+
+  .case-6 {
+    grid-column: 1 / span 12;
+    grid-row: 16 / 19;
+  }
+
+  .case-7 {
+    grid-column: 1 / span 12;
+    grid-row: 19 / 22;
+  }
+
+  .case-8 {
+    grid-column: 1 / span 12;
+    grid-row: 22 / 25;
+  }
+
+  .case-9 {
+    grid-column: 1 / span 12;
+    grid-row: 25 / 28;
+  }
+
+  .case-10 {
+    grid-column: 1 / span 12;
+    grid-row: 28 / 31;
+  }
+}
